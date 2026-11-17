@@ -1,50 +1,68 @@
-# Claude-Lyceum 
+# Claude Lyceum
 
-An open-source collection of practical resources to help entrepreneurs, creators and digital businesses get more value from Claude AI.
+Open-source toolkit of practical Claude workflows, prompts, agents and templates for entrepreneurs and creators. Free to download, copy and adapt.
 
-## 🎯 Mission
+[Leer en español](README.es.md) · [License: MIT](LICENSE) · [Contributing](CONTRIBUTING.md)
 
-Make advanced AI capabilities accessible and actionable for everyday business operations.
+## What this is
 
-This project bridges the gap between what Claude can do and what entrepreneurs actually know how to implement.
+A growing library of resources that are ready to use, not theory. Each file is a copy-paste asset: open it, fill in the `[BRACKETS]`, run it in Claude.
 
-## 📚 What's inside?
+The resources are written in Spanish first (the audience is Spanish-speaking entrepreneurs). English translations are welcome as pull requests.
 
-- **Prompt Engineering:** Reusable prompts for business, marketing and sales.
-- **Business Automation:** Practical workflows to automate repetitive tasks.
-- **AI Agents:** Resources and examples for building AI-powered assistants.
-- **Marketing Systems:** Claude-powered content creation and marketing workflows.
-- **Productivity:** Templates to improve research, planning and execution.
+## What's inside
 
-## 🧠 Who is this for?
+| Folder | Contents |
+|---|---|
+| [`prompts/`](prompts) | Reusable prompts by area: marketing, sales, productivity |
+| [`workflows/`](workflows) | Step-by-step processes that chain several prompts |
+| [`agents/`](agents) | `CLAUDE.md` starter and subagent definitions for Claude Code |
+| [`templates/`](templates) | Fill-in-the-blank documents (briefs, content calendar, decision log) |
+| [`docs/`](docs) | Guides and project notes |
 
-- Entrepreneurs and business owners.
-- Content creators.
-- Digital marketers.
-- Freelancers and consultants.
-- People learning to build with AI.
+## Quick start
 
-## 🛠️ Project roadmap
+1. Browse a folder and open a file.
+2. Copy the prompt or template into Claude.
+3. Replace everything in `[BRACKETS]` with your own context.
+4. Iterate. Prompts are starting points; the best results come from adding your real data.
 
-- [x] Create the open-source project.
-- [ ] Publish practical Claude prompt templates.
-- [ ] Add business automation workflows.
-- [ ] Publish real-world implementation examples.
-- [ ] Develop reusable AI agent resources.
-- [ ] Expand community contributions.
+To download everything:
 
-## 🤝 Contributing
+```bash
+git clone https://github.com/justindurruae-coder/Claude-Lyceum.git
+```
 
-Contributions are welcome!
+Or use **Code → Download ZIP** on GitHub.
 
-Feel free to suggest improvements, submit new prompts, share workflows or contribute practical examples.
+## Current resources
 
-## 📄 License
+- Marketing: [content ideas](prompts/marketing/ideas-de-contenido.md), [reel script](prompts/marketing/guion-reel.md)
+- Sales: [discovery call prep](prompts/ventas/preparar-llamada.md), [objection handling](prompts/ventas/manejo-de-objeciones.md)
+- Productivity: [weekly review](prompts/productividad/revision-semanal.md), [research summary](prompts/productividad/resumen-de-investigacion.md)
+- Workflows: [idea to published content](workflows/idea-a-contenido.md)
+- Agents: [CLAUDE.md starter](agents/CLAUDE.md-plantilla.md), [subagent examples](agents/subagentes-ejemplo.md)
+- Templates: [project brief](templates/brief-de-proyecto.md), [decision log](templates/registro-de-decisiones.md)
 
-MIT License.
+## Roadmap
 
----
+- [x] Create the open-source project
+- [x] Base structure, license and contribution guide
+- [x] First set of prompts, one workflow, agent starters, templates
+- [ ] More workflows (email sequences, lead follow-up, content repurposing)
+- [ ] English translations
+- [ ] Community-contributed resources
 
-Built to help more people turn AI capabilities into real-world results.
+## Contributing
 
-Created by the community, for the community.
+Contributions are welcome: new prompts, improved workflows, translations, fixes. Read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+
+## Status and honesty note
+
+This is a young project maintained by one person ([@justindurruae-coder](https://github.com/justindurruae-coder)). It has no external contributors yet. Everything here has been written to be useful, and nothing is claimed to be endorsed by Anthropic.
+
+Claude is a trademark of Anthropic. This project is independent and not affiliated with Anthropic.
+
+## License
+
+[MIT](LICENSE). Use it, modify it, sell what you build with it. Attribution is appreciated.
